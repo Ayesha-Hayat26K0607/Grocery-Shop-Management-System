@@ -1,0 +1,85 @@
+case 3: // desserts
+		    	printf("Select the type of desserts : \n");
+		    	printf("1-Chocolates\n");
+		    	printf("2-Pancakes\n");
+				printf("3-Brownies\n");
+				printf("Desserts type : ");
+				scanf("%d", &dessert_type);
+				switch(dessert_type)
+				{
+					case 1: //chocolate
+					printf("Enter the type of Chocolates : \n");
+					printf("1-Dairy milk \n");
+					printf("2-Bounty \n");
+					printf("3-Kitkat\n");
+					printf("Chocolates type : ");
+					scanf("%d", &choco);
+					switch(rate)
+					{
+						case 1:
+							rate=100;
+							printf("The price is Rs %d",rate);
+							break;
+						case 2:
+							rate=200;
+							printf("The price is Rs %d",rate);
+							break;
+						case 3:
+							rate=200;
+							printf("The price is Rs %d",rate);
+							break;
+					}
+					break;
+					case 2: //pancakes
+					printf("Enter the type of pancakes : \n");
+					printf("1-Classic \n");
+					printf("2-Nutella \n");
+					printf("3-Oreo\n");
+					printf("Pancakes type : ");
+					scanf("%d", &cake);
+					switch(rate)
+					{
+						case 1:
+							rate=200;
+							printf("The price is Rs %d",rate);
+							break;
+						case 2:
+							rate=350;
+							printf("The price is Rs %d",rate);
+							break;
+						case 3:
+							rate=3000;
+							printf("The price is Rs %d",rate);
+							break;
+					}
+					break;
+					case 3: //brownies
+					printf("Enter the type of Brownies : \n");
+					printf("1-Nutella \n");
+					printf("2-Double chocolate \n");
+					printf("3-Fudge \n");
+					printf("Brownie type : ");
+					scanf("%d", &brownie);
+					switch(rate)
+					{
+						case 1:
+							rate=150;
+							printf("The price is Rs %d",rate);
+							break;
+						case 2:
+							rate=200;
+							printf("The price is Rs %d",rate);
+							break;
+						case 3:
+							rate=200;
+							printf("The price is Rs %d",rate);
+							break;
+					}
+					break;
+			    }
+			break;
+	   }    
+	   return 0;  
+	}
+	
+	                                   
