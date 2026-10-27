@@ -39,22 +39,17 @@ We are a team of three FAST-NUCES students developing a C-based Tuck Shop Manage
   <img height="165" src="https://github-readme-stats-five-sigma-99.vercel.app/api/top-langs/?username=Grocery-Shop-Management-System&layout=compact&theme=tokyonight&title_color=8bd49c&icon_color=8bd49c&hide_border=true&bg_color=00000000&langs_count=8" alt="top langs" />
 </p>
 
-### 📈 Our Team's Contribution Graphs
 
-<p align="center"><b>Team Member 1</b></p>
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?Ayesha-Hayat26K0607&bg_color=0d1117&color=8bd49c&line=8bd49c&point=c9d1d9&area=true&hide_border=true" alt="Member 1 contributions" />
-</p>
+## 📊 Team's Contribution Graphs
 
-<p align="center"><b>Team Member 2</b></p>
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?hamnaassif-26&bg_color=0d1117&color=8bd49c&line=8bd49c&point=c9d1d9&area=true&hide_border=true" alt="Member 2 contributions" />
-</p>
+### 👩‍💻 Team Member 1
+[![Member 1 contributions](https://github-readme-stats.vercel.app/api?username=Ayesha-Hayat26K0607_1&show_icons=true&theme=dark)](https://github.com/GITHUB_USERNAME_1)
 
-<p align="center"><b>Team Member 3</b></p>
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?zafartehreem3&bg_color=0d1117&color=8bd49c&line=8bd49c&point=c9d1d9&area=true&hide_border=true" alt="Member 3 contributions" />
-</p>
+### 👩‍💻 Team Member 2
+[![Member 2 contributions](https://github-readme-stats.vercel.app/api?username=hamnaassif-26&show_icons=true&theme=dark)](https://github.com/GITHUB_USERNAME_2)
+
+### 👩‍💻 Team Member 3
+[![Member 3 contributions](https://github-readme-stats.vercel.app/api?username=zafartehreem3&show_icons=true&theme=dark)](https://github.com/GITHUB_USERNAME_3)
 
 ### 💭 Dev Quote
 
