@@ -1,7 +1,7 @@
 [README (1).md](https://github.com/user-attachments/files/34010879/README.1.md)
 <p align="center">
   <a href="https://github.com/Grocery-Shop-Management-System">
-    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=8bd49c&fontSize=54&height=90&width=1200&text=%F0%9F%9B%92%20FAST%20Tuck%20Shop%20Management%20System" alt="🛒 FAST Tuck Shop Management System" />
+    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=8bd49c&fontSize=54&height=90&width=1200&text=%F0%9F%9B%92%20FAST%20Tuck%20Shop%20Management%20System" alt="🛒 NU Tuck Shop Management System" />
   </a>
 </p>
 
@@ -43,7 +43,7 @@ We are a team of three FAST-NUCES students developing a C-based Tuck Shop Manage
 ## 📊 Team's Contribution Graphs
 
 ### 👩‍💻 Team Member 1
-[![Member 1 contributions](https://github-readme-stats.vercel.app/api?username=Ayesha-Hayat26K0607_1&show_icons=true&theme=dark)](https://github.com/GITHUB_USERNAME_1)
+[![Member 1 contributions](https://github-readme-stats.vercel.app/api?username=Ayesha-Hayat26K0607&show_icons=true&theme=dark)](https://github.com/GITHUB_USERNAME_1)
 
 ### 👩‍💻 Team Member 2
 [![Member 2 contributions](https://github-readme-stats.vercel.app/api?username=hamnaassif-26&show_icons=true&theme=dark)](https://github.com/GITHUB_USERNAME_2)
