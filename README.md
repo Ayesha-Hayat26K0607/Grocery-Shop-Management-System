@@ -35,7 +35,7 @@ We are a team of three FAST-NUCES students developing a C-based Tuck Shop Manage
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats-five-sigma-99.vercel.app/api?username=Grocery-Shop-Management-System&show_icons=true&theme=tokyonight&title_color=8bd49c&icon_color=8bd49c&hide_border=true&bg_color=00000000&count_private=true" alt="stats" />
+  <img height="165" src="https://github-readme-stats-five-sigma-99.vercel.app/api?username=Ayesha-Hayat26K0607&show_icons=true&theme=tokyonight&title_color=8bd49c&icon_color=8bd49c&hide_border=true&bg_color=00000000&count_private=true" alt="stats" />
   <img height="165" src="https://github-readme-stats-five-sigma-99.vercel.app/api/top-langs/?username=Grocery-Shop-Management-System&layout=compact&theme=tokyonight&title_color=8bd49c&icon_color=8bd49c&hide_border=true&bg_color=00000000&langs_count=8" alt="top langs" />
 </p>
 
