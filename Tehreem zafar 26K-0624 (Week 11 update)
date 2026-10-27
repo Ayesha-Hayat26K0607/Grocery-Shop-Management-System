@@ -1,0 +1,34 @@
+char item_name[100][50];
+
+    int quantities[100];
+
+    int subtotal[100];
+
+    int count=0;
+
+    int grand_total = 0;
+
+
+
+void calculateandprintquantites(int rate, char name[]){
+    int total ;
+    int quantity;
+    
+    printf("Enter the amount of item :");
+    scanf("%d", &quantity);
+    
+    total = rate*quantity;
+    printf("The total amount of the item is %d\n", total);
+    
+    strcpy(item_name[count],name);
+
+    quantities[count] = quantity;
+
+    subtotal[count] = total;
+
+    count++;
+
+    
+    
+    grand_total+=total;
+}
