@@ -1,14 +1,22 @@
+
 #include<stdio.h>
-void calculateandprintquantites(int rate);
+#include<string.h>
+void calculateandprintquantites(int rate, char name[]);
+
+char item_name[100][50];
+    int quantities[100];
+    int subtotal[100];
+    int count=0;
+    int grand_total = 0;
 
 int main()
 {
     printf("===Welcome to FAST Tuck Shop===\n");
-    char choice;
-    do{
     int product,beverage_type,cold,juice,water,snack_type,ramen,crisps,sandwitches,biscuits,dessert_type,choco,cake,brownie;
-    int rate=0;
+    char choice;
     
+    do{
+    int rate=0;
     printf("Enter the desired product : \n");
     printf("1-Beverages\n");
     printf("2-Snacks\n");
@@ -40,17 +48,17 @@ int main()
                         case 1:
                             rate=100;
                             printf("The price is Rs %d\n",rate);
-                            calculateandprintquantites(rate);
+                            calculateandprintquantites(rate, "Coke");
                             break;
                         case 2:
                             rate=120;
                             printf("The price is Rs %d\n",rate);
-                            calculateandprintquantites(rate);
+                            calculateandprintquantites(rate, "Sprite");
                             break;
                         case 3:
                             rate=250;
                             printf("The price is Rs %d\n",rate);
-                            calculateandprintquantites(rate);
+                            calculateandprintquantites(rate, "Monster");
                             break;
                     }
                     break;
@@ -67,17 +75,17 @@ int main()
                         case 1:
                             rate=200;
                             printf("The price is Rs %d\n",rate);
-                            calculateandprintquantites(rate);
+                            calculateandprintquantites(rate,"Mango Juice");
                             break;
                         case 2:
                             rate=250;
                             printf("The price is Rs %d\n",rate);
-                            calculateandprintquantites(rate);
+                            calculateandprintquantites(rate,"Orange Juice");
                             break;
                         case 3:
                             rate=250;
                             printf("The price is Rs %d\n",rate);
-                            calculateandprintquantites(rate);
+                            calculateandprintquantites(rate,"Apple Juice");
                             break;
                     }
                       break;
@@ -94,17 +102,17 @@ int main()
                         case 1:
                             rate=100;
                             printf("The price is Rs %d\n",rate);
-                            calculateandprintquantites(rate);
+                            calculateandprintquantites(rate,"Mineral Water");
                             break;
                         case 2:
                             rate=300;
                             printf("The price is Rs %d\n",rate);
-                            calculateandprintquantites(rate);
+                            calculateandprintquantites(rate,"Sparkling Water");
                             break;
                         case 3:
                             rate=200;
                             printf("The price is Rs %d\n",rate);
-                            calculateandprintquantites(rate);
+                            calculateandprintquantites(rate,"Detox Water");
                             break;
                     }
                     break;
@@ -134,17 +142,17 @@ int main()
                         case 1:
                             rate=500;
                             printf("The price is Rs %d\n",rate);
-                            calculateandprintquantites(rate);
+                            calculateandprintquantites(rate,"Buldak Ramen");
                             break;
                         case 2:
                             rate=120;
                             printf("The price is Rs %d\n",rate);
-                            calculateandprintquantites(rate);
+                            calculateandprintquantites(rate,"Indomie Ramen");
                             break;
                         case 3:
                             rate=100;
                             printf("The price is Rs %d\n",rate);
-                            calculateandprintquantites(rate);
+                            calculateandprintquantites(rate,"Knorr Ramen");
                             break;
                     }
                     break;
@@ -161,17 +169,17 @@ int main()
                         case 1:
                             rate=100;
                             printf("The price is Rs %d\n",rate);
-                            calculateandprintquantites(rate);
+                            calculateandprintquantites(rate,"Wavy");
                             break;
                         case 2:
                             rate=100;
                             printf("The price is Rs %d\n",rate);
-                            calculateandprintquantites(rate);
+                            calculateandprintquantites(rate,"Lays");
                             break;
                         case 3:
                             rate=100;
                             printf("The price is Rs %d\n",rate);
-                            calculateandprintquantites(rate);
+                            calculateandprintquantites(rate,"Kurkure");
                             break;
                     }
                     break;
@@ -188,17 +196,17 @@ int main()
                         case 1:
                             rate=150;
                             printf("The price is Rs %d\n",rate);
-                            calculateandprintquantites(rate);
+                            calculateandprintquantites(rate,"Egg Sandwitches");
                             break;
                         case 2:
                             rate=200;
                             printf("The price is Rs %d\n",rate);
-                            calculateandprintquantites(rate);
+                            calculateandprintquantites(rate,"Fajita Sandwitches");
                             break;
                         case 3:
                             rate=150;
                             printf("The price is Rs %d\n",rate);
-                            calculateandprintquantites(rate);
+                            calculateandprintquantites(rate,"Vegetable Sandwitches");
                             break;
                     }
                     break;
@@ -215,18 +223,18 @@ int main()
                         case 1:
                             rate=50;
                             printf("The price is Rs %d\n",rate);
-                            calculateandprintquantites(rate);
+                            calculateandprintquantites(rate,"Day Dream");
                             break;
                             
                         case 2:
                             rate=50;
                             printf("The price is Rs %d\n",rate);
-                            calculateandprintquantites(rate);
+                            calculateandprintquantites(rate,"Sooper");
                             break;
                         case 3:
                             rate=50;
                             printf("The price is Rs %d\n",rate);
-                            calculateandprintquantites(rate);
+                            calculateandprintquantites(rate,"Zeera plus");
                             break;
                     }
                     break;
@@ -255,17 +263,17 @@ int main()
                         case 1:
                             rate=100;
                             printf("The price is Rs %d\n",rate);
-                            calculateandprintquantites(rate);
+                            calculateandprintquantites(rate,"Dairy Milk");
                             break;
                         case 2:
                             rate=200;
                             printf("The price is Rs %d\n",rate);
-                            calculateandprintquantites(rate);
+                            calculateandprintquantites(rate,"Bounty");
                             break;
                         case 3:
                             rate=200;
                             printf("The price is Rs %d\n",rate);
-                            calculateandprintquantites(rate);
+                            calculateandprintquantites(rate,"Kitkat");
                             break;
                     }
                     break;
@@ -282,17 +290,17 @@ int main()
                         case 1:
                             rate=200;
                             printf("The price is Rs %d\n",rate);
-                            calculateandprintquantites(rate);
+                            calculateandprintquantites(rate,"Classic");
                             break;
                         case 2:
                             rate=350;
                             printf("The price is Rs %d\n",rate);
-                            calculateandprintquantites(rate);
+                            calculateandprintquantites(rate,"Nutella");
                             break;
                         case 3:
                             rate=300;
                             printf("The price is Rs %d\n",rate);
-                            calculateandprintquantites(rate);
+                            calculateandprintquantites(rate,"Oreo");
                             break;
                             
                     }
@@ -310,18 +318,18 @@ int main()
                         case 1:
                             rate=150;
                             printf("The price is Rs %d\n",rate);
-                            calculateandprintquantites(rate);
+                            calculateandprintquantites(rate,"Nutella");
                             break;
                             
                         case 2:
                             rate=200;
                             printf("The price is Rs %d\n",rate);
-                            calculateandprintquantites(rate);
+                            calculateandprintquantites(rate,"Double Chocolate");
                             break;
                         case 3:
                             rate=200;
                             printf("The price is Rs %d\n",rate);
-                            calculateandprintquantites(rate);
+                            calculateandprintquantites(rate,"Fudge");
                             break;
                     }
                     break;
@@ -331,15 +339,22 @@ int main()
     printf("Ask customer if he want any other item :\n");
     printf("If yes select (Y) , if no select (N):");
     scanf(" %c", &choice);
-    
 
 }
 while(choice != 'n' && choice != 'N');
-           
+
+	int i ;
+	printf("----Final Bill---\n");
+	for(i = 0 ; i<count ; i++){
+		printf("Item Name : %s Item Quantity : %d\n Sub Total : %-6d\n",item_name[i],quantities[i],subtotal[i]);
+	}
+    
+	printf("The grand total is Rs %d\n",grand_total);   
+	printf("=====THANK YOU FOR SHOPPING AT FAST TUCK SHOP=====\n");   
     return 0;
 }
 
-void calculateandprintquantites(int rate){
+void calculateandprintquantites(int rate, char name[]){
     int total ;
     int quantity;
     
@@ -349,4 +364,11 @@ void calculateandprintquantites(int rate){
     total = rate*quantity;
     printf("The total amount of the item is %d\n", total);
     
+    strcpy(item_name[count],name);
+    quantities[count] = quantity;
+    subtotal[count] = total;
+    count++;
+    
+    
+    grand_total+=total;
 }
