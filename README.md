@@ -41,9 +41,13 @@ We are a team of three FAST-NUCES students developing a C-based Tuck Shop Manage
 ## 📊 Team Contributions
 
 <p align="center">
-  <a href="https://github.com/Ayesha-Hayat26K0607/Grocery-Shop-Management-System/graphs/contributors">Project Contribution</a>
-  &nbsp; • &nbsp;
-  <a href="https://github.com/Ayesha-Hayat26K0607/Grocery-Shop-Management-System/commits/main/">Commit History</a>
+  <a href="https://github.com/Ayesha-Hayat26K0607/Grocery-Shop-Management-System/graphs/contributors">
+    <img src="https://img.shields.io/badge/📊-Project_Contribution-2DA44E?style=for-the-badge&logo=github&logoColor=white" alt="Project Contribution" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/Ayesha-Hayat26K0607/Grocery-Shop-Management-System/commits/main/">
+    <img src="https://img.shields.io/badge/📝-Commit_History-238636?style=for-the-badge&logo=github&logoColor=white" alt="Commit History" />
+  </a>
 </p>
 
 ### 💭 Dev Quote
