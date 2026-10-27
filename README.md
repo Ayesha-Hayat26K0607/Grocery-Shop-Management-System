@@ -1,21 +1,20 @@
-[README (1).md](https://github.com/user-attachments/files/34010879/README.1.md)
-<p align="center">
-  <a href="https://github.com/Grocery-Shop-Management-System">
-    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=8bd49c&fontSize=54&height=90&width=1200&text=%F0%9F%9B%92%20FAST%20Tuck%20Shop%20Management%20System" alt="🛒 NU Tuck Shop Management System" />
+ <p align="center">
+  <a href="https://github.com/Ayesha-Hayat26K0607/Grocery-Shop-Management-System">
+    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=8bd49c&fontSize=42&height=80&width=1200&text=%F0%9F%9B%92%20FAST%20Mart" alt="FAST Mart" />
   </a>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=600&size=26&pause=1000&color=3fb950&center=true&vCenter=true&width=850&height=44&lines=A%20C-Based%20Solution%20for%20Smarter%20Shop%20Management;Simplifying%20Billing%2C%20Inventory%2C%20and%20Cashier%20Operations" alt="Typing headlines" />
+  <img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=600&size=24&pause=1000&color=3fb950&center=true&vCenter=true&width=850&height=44&lines=A%20C-Based%20Solution%20for%20Smarter%20Shop%20Management;Simplifying%20Billing%2C%20Inventory%2C%20and%20Cashier%20Operations" alt="Typing headlines" />
 </p>
 
 ### 🚀 About Us
 
-We are a team of three FAST-NUCES students developing a C-based Tuck Shop Management System to simplify daily shop operations, assist cashiers with billing and account management, and improve inventory tracking.
+We are a team of three FAST-NUCES students developing **FAST Mart**, a C-based Tuck Shop Management System to simplify daily shop operations, assist cashiers with billing and account management, and improve inventory tracking.
 
-🔭 &nbsp;I'm currently working on **Grocery Store Management System**  
-🌱 &nbsp;I'm currently learning **C Programming, Arrays, Functions, and File Handling**  
-🔗 &nbsp;I'm looking to collaborate on **Beginner-Friendly C Programming Projects**  
+🔭 &nbsp;We're currently working on **FAST Mart**  
+🌱 &nbsp;We're currently learning **C Programming, Arrays, and Functions**  
+🔗 &nbsp;We're looking to collaborate on **Beginner-Friendly C Programming Projects**  
 ⚡ &nbsp;Fun fact: **Our code has more plot twists than a thriller movie. 💻🎬**
 
 ### 🛠️ Tech Stack
@@ -32,32 +31,25 @@ We are a team of three FAST-NUCES students developing a C-based Tuck Shop Manage
   <a href="https://www.linkedin.com/in/hamna-bint-e-assif-583b32424/?isSelfProfile=true"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </p>
 
-### 📊 GitHub Stats
+## 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats-five-sigma-99.vercel.app/api?username=Ayesha-Hayat26K0607&show_icons=true&theme=tokyonight&title_color=8bd49c&icon_color=8bd49c&hide_border=true&bg_color=00000000&count_private=true" alt="stats" />
-  <img height="165" src="https://github-readme-stats-five-sigma-99.vercel.app/api/top-langs/?username=Ayesha-Hayat26K0607&layout=compact&theme=tokyonight&title_color=8bd49c&icon_color=8bd49c&hide_border=true&bg_color=00000000&langs_count=8" alt="top langs" />
+  <img height="165" src="https://github-readme-stats-five-sigma-99.vercel.app/api?username=Ayesha-Hayat26K0607&show_icons=true&theme=tokyonight&title_color=8bd49c&icon_color=8bd49c&hide_border=true&bg_color=00000000&count_private=true" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats-five-sigma-99.vercel.app/api/top-langs/?username=Ayesha-Hayat26K0607&layout=compact&theme=tokyonight&title_color=8bd49c&icon_color=8bd49c&hide_border=true&bg_color=00000000&langs_count=8" alt="Top languages" />
 </p>
 
-
-## 📊 Grocery Shop Project Contributions
+## 📊 FAST Mart — Team Contributions
 
 Want to see how our team is building this project?
 
-[![View Project Contributors](https://img.shields.io/badge/📊_View_Project_Contribution_Graph-2DA44E?style=for-the-badge)](https://github.com/Ayesha-Hayat26K0607/Grocery-Shop-Management-System/graphs/contributors)
-
-[View Project Commit History](https://github.com/Ayesha-Hayat26K0607/Grocery-Shop-Management-System/commits/main/)
-
-## 📊 Team's Contribution Graphs
-
-### 👩‍💻 Team Member 1
-[![Member 1 contributions](https://github-readme-stats.vercel.app/api?username=Ayesha-Hayat26K0607&show_icons=true&theme=dark)](https://github.com/GITHUB_USERNAME_1)
-
-### 👩‍💻 Team Member 2
-[![Member 2 contributions](https://github-readme-stats.vercel.app/api?username=hamnaassif-26&show_icons=true&theme=dark)](https://github.com/GITHUB_USERNAME_2)
-
-### 👩‍💻 Team Member 3
-[![Member 3 contributions](https://github-readme-stats.vercel.app/api?username=zafartehreem3&show_icons=true&theme=dark)](https://github.com/GITHUB_USERNAME_3)
+<p align="center">
+  <a href="https://github.com/Ayesha-Hayat26K0607/Grocery-Shop-Management-System/graphs/contributors">
+    <img src="https://img.shields.io/badge/View-Project_Contributions-2DA44E?style=for-the-badge&logo=github" alt="View project contributions" />
+  </a>
+  <a href="https://github.com/Ayesha-Hayat26K0607/Grocery-Shop-Management-System/commits/main/">
+    <img src="https://img.shields.io/badge/View-Commit_History-181717?style=for-the-badge&logo=github" alt="View commit history" />
+  </a>
+</p>
 
 ### 💭 Dev Quote
 
@@ -66,4 +58,5 @@ Want to see how our team is building this project?
 </p>
 
 ---
-<p align="center"><i>⭐️ From <a href="https://github.com/Grocery-Shop-Management-System">Grocery-Shop-Management-System</a></i></p>
+
+<p align="center"><i>⭐️ From <a href="https://github.com/Ayesha-Hayat26K0607/Grocery-Shop-Management-System">FAST Mart</a></i></p>
