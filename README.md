@@ -1,6 +1,6 @@
  <p align="center">
   <a href="https://github.com/Ayesha-Hayat26K0607/Grocery-Shop-Management-System">
-    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=8bd49c&fontSize=30&height=70&width=1200&text=%F0%9F%9B%92%20FAST%20Tuck%20Shop%20Management%20System" alt="FAST Tuck Shop Management System" />
+    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=8bd49c&fontSize=35&height=71&width=1200&text=%F0%9F%9B%92%20FAST%20Tuck%20Shop%20Management%20System" alt="FAST Tuck Shop Management System" />
   </a>
 </p>
 
@@ -42,11 +42,11 @@ We are a team of three FAST-NUCES students developing a C-based Tuck Shop Manage
 
 <p align="center">
   <a href="https://github.com/Ayesha-Hayat26K0607/Grocery-Shop-Management-System/graphs/contributors">
-    <img src="https://img.shields.io/badge/📊-Project_Contribution-2DA44E?style=for-the-badge&logo=github&logoColor=white" alt="Project Contribution" />
+    <img src="https://img.shields.io/badge/📊-Project_Contribution-2DA44E?style=for-the-badge&logoColor=white" alt="Project Contribution" />
   </a>
   &nbsp;
   <a href="https://github.com/Ayesha-Hayat26K0607/Grocery-Shop-Management-System/commits/main/">
-    <img src="https://img.shields.io/badge/📝-Commit_History-238636?style=for-the-badge&logo=github&logoColor=white" alt="Commit History" />
+    <img src="https://img.shields.io/badge/📝-Commit_History-238636?style=for-the-badge&logoColor=white" alt="Commit History" />
   </a>
 </p>
 
