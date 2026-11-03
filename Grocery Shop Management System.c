@@ -1,7 +1,8 @@
-
 #include<stdio.h>
 #include<string.h>
 void calculateandprintquantites(int rate, char name[]);
+float discount(int grandtotal);
+void changeAmount(float final_bill);
 
 char item_name[100][50];
     int quantities[100];
@@ -14,7 +15,7 @@ int main()
     printf("===Welcome to FAST Tuck Shop===\n");
     int product,beverage_type,cold,juice,water,snack_type,ramen,crisps,sandwitches,biscuits,dessert_type,choco,cake,brownie;
     char choice;
-    
+   
     do{
     int rate=0;
     printf("Enter the desired product : \n");
@@ -22,8 +23,8 @@ int main()
     printf("2-Snacks\n");
     printf("3-Dessert\n");
     scanf("%d", &product);
-    
-    
+   
+   
     switch(product)
     {
         case 1: //Beverages
@@ -33,7 +34,7 @@ int main()
             printf("3-Water\n");
             printf("Beverage type : ");
             scanf("%d", &beverage_type);
-            
+           
             switch(beverage_type)
             {
                 case 1: //Cold Drink
@@ -60,9 +61,12 @@ int main()
                             printf("The price is Rs %d\n",rate);
                             calculateandprintquantites(rate, "Monster");
                             break;
+                        default:
+							printf("Invalid Input\n");
+							break;
                     }
                     break;
-                    
+                   
                 case 2: //Juice
                     printf("Enter the type of Juice : \n");
                     printf("1-Mango Juice \n");
@@ -87,9 +91,12 @@ int main()
                             printf("The price is Rs %d\n",rate);
                             calculateandprintquantites(rate,"Apple Juice");
                             break;
+                        default:
+							printf("Invalid Input\n");
+							break;
                     }
                       break;
-                    
+                   
                 case 3: //Water
                     printf("Enter the type of Water : \n");
                     printf("1-Mineral Water \n");
@@ -114,11 +121,18 @@ int main()
                             printf("The price is Rs %d\n",rate);
                             calculateandprintquantites(rate,"Detox Water");
                             break;
+                        default:
+							printf("Invalid Input\n");
+							break;
                     }
                     break;
+                default:
+					printf("Invalid Input\n");
+					break;
             }
+           
             break;
-            
+           
         case 2: //Snacks
             printf("Select the type of snack : \n");
             printf("1-Ramen\n");
@@ -127,7 +141,7 @@ int main()
             printf("4-Biscuits\n");
             printf("Snacks type : ");
             scanf("%d", &snack_type);
-            
+           
             switch(snack_type)
             {
                 case 1: //Ramen
@@ -154,9 +168,12 @@ int main()
                             printf("The price is Rs %d\n",rate);
                             calculateandprintquantites(rate,"Knorr Ramen");
                             break;
+                        default:
+							printf("Invalid Input\n");
+							break;
                     }
                     break;
-                    
+                   
                 case 2: //crisps
                     printf("Enter the type of Crisps : \n");
                     printf("1-Wavy \n");
@@ -181,9 +198,12 @@ int main()
                             printf("The price is Rs %d\n",rate);
                             calculateandprintquantites(rate,"Kurkure");
                             break;
+                        default:
+							printf("Invalid Input\n");
+							break;    
                     }
                     break;
-                    
+                   
                 case 3: //sandwitches
                     printf("Enter the type of sandwitches: \n");
                     printf("1-Egg sandwitches \n");
@@ -208,9 +228,12 @@ int main()
                             printf("The price is Rs %d\n",rate);
                             calculateandprintquantites(rate,"Vegetable Sandwitches");
                             break;
+                        default:
+							printf("Invalid Input\n");
+							break;
                     }
                     break;
-                    
+                   
                 case 4: //biscuits
                     printf("Enter the type of biscuits: \n");
                     printf("1-Daydream\n");
@@ -225,7 +248,7 @@ int main()
                             printf("The price is Rs %d\n",rate);
                             calculateandprintquantites(rate,"Day Dream");
                             break;
-                            
+                           
                         case 2:
                             rate=50;
                             printf("The price is Rs %d\n",rate);
@@ -236,11 +259,17 @@ int main()
                             printf("The price is Rs %d\n",rate);
                             calculateandprintquantites(rate,"Zeera plus");
                             break;
+                        default:
+							printf("Invalid Input\n");
+							break;  
                     }
                     break;
+                    default:
+							printf("Invalid Input\n");
+							break;
             }
             break;
-            
+           
         case 3: // desserts
             printf("Select the type of desserts : \n");
             printf("1-Chocolates\n");
@@ -248,7 +277,7 @@ int main()
             printf("3-Brownies\n");
             printf("Desserts type : ");
             scanf("%d", &dessert_type);
-            
+           
             switch(dessert_type)
             {
                 case 1: //chocolate
@@ -275,9 +304,13 @@ int main()
                             printf("The price is Rs %d\n",rate);
                             calculateandprintquantites(rate,"Kitkat");
                             break;
+                        default:
+							printf("Invalid Input\n");
+							break;
                     }
+                   
                     break;
-                    
+                   
                 case 2: //pancakes
                     printf("Enter the type of pancakes : \n");
                     printf("1-Classic \n");
@@ -302,10 +335,12 @@ int main()
                             printf("The price is Rs %d\n",rate);
                             calculateandprintquantites(rate,"Oreo");
                             break;
-                            
+                        default:
+							printf("Invalid Input\n");
+							break;
                     }
                     break;
-                    
+                   
                 case 3: //brownies
                     printf("Enter the type of Brownies : \n");
                     printf("1-Nutella \n");
@@ -320,7 +355,7 @@ int main()
                             printf("The price is Rs %d\n",rate);
                             calculateandprintquantites(rate,"Nutella");
                             break;
-                            
+                           
                         case 2:
                             rate=200;
                             printf("The price is Rs %d\n",rate);
@@ -331,10 +366,19 @@ int main()
                             printf("The price is Rs %d\n",rate);
                             calculateandprintquantites(rate,"Fudge");
                             break;
+                        default:
+							printf("Invalid Input\n");
+							break;
                     }
                     break;
+                    default:
+						printf("Invalid Input\n");
+						break;
             }
             break;
+            default:
+				printf("Invalid Input\n");
+				break;
     }
     printf("Ask customer if he want any other item :\n");
     printf("If yes select (Y) , if no select (N):");
@@ -343,32 +387,73 @@ int main()
 }
 while(choice != 'n' && choice != 'N');
 
-	int i ;
-	printf("----Final Bill---\n");
-	for(i = 0 ; i<count ; i++){
-		printf("Item Name : %s Item Quantity : %d\n Sub Total : %-6d\n",item_name[i],quantities[i],subtotal[i]);
-	}
-    
-	printf("The grand total is Rs %d\n",grand_total);   
-	printf("=====THANK YOU FOR SHOPPING AT FAST TUCK SHOP=====\n");   
+int i ;
+printf("----Final Bill---\n");
+for(i = 0 ; i<count ; i++){
+printf("Item Name : %s Item Quantity : %d\n Sub Total : %-6d\n",item_name[i],quantities[i],subtotal[i]);
+}
+   
+printf("The grand total is Rs %d\n",grand_total);  
+
+float final = discount(grand_total);
+changeAmount(final);
+printf("=====THANK YOU FOR SHOPPING AT FAST TUCK SHOP=====\n");  
     return 0;
 }
 
 void calculateandprintquantites(int rate, char name[]){
     int total ;
     int quantity;
-    
+   
     printf("Enter the amount of item :");
     scanf("%d", &quantity);
-    
+   
     total = rate*quantity;
     printf("The total amount of the item is %d\n", total);
-    
+   
     strcpy(item_name[count],name);
     quantities[count] = quantity;
     subtotal[count] = total;
     count++;
-    
-    
+   
+   
     grand_total+=total;
+}
+
+float discount(int grandtotal)
+{
+float final_bill=0;
+if(grandtotal<=1000 )
+{
+final_bill = grandtotal*0.95;
+printf("Discount 5 %% \n");
+printf("Total Bill is %.2f\n", final_bill);
+}
+else if(grandtotal <=2000)
+{
+    final_bill = grandtotal*0.90;
+printf("Discount 10 %% \n");
+printf("Total Bill is %.2f\n", final_bill);
+}
+else if(grandtotal <=5000)
+{
+final_bill = grandtotal*0.85;
+printf("Discount 15 %% \n");
+printf("Total Bill is %.2f\n", final_bill);
+}
+else{
+   final_bill = grandtotal*0.80;
+printf("Discount 20 %% \n");
+printf("Total Bill is %.2f\n", final_bill);
+}
+    return final_bill;
+}
+
+void changeAmount(float final_bill)
+{
+float amount=0;
+printf("Enter Amount pay by customer : ");
+scanf("%f", &amount);
+float change = amount - final_bill ;
+printf("\nChange= %.2f\n", change );
 }
