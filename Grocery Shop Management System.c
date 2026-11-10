@@ -4,6 +4,7 @@
 void calculateandprintquantites(int rate, char name[], int stock_index);
 float discount(int grandtotal);
 void changeAmount(float final_bill);
+void showRemainingStock(); // Added function prototype
 
 // Global variables for items, quantities, subtotal, and stock
 char item_name[100][50];
@@ -24,6 +25,20 @@ int stock[30] = {
     10, 10, 10, // Chocolates (Dairy Milk, Bounty, Kitkat)
     10, 10, 10, // Pancakes (Classic, Nutella, Oreo)
     10, 10, 10  // Brownies (Nutella, Double Choco, Fudge)
+};
+
+// Master list of all product names corresponding to the stock array indices
+const char *all_product_names[30] = {
+    "Coke", "Sprite", "Monster",
+    "Mango Juice", "Orange Juice", "Apple Juice",
+    "Mineral Water", "Sparkling Water", "Detox Water",
+    "Buldak Ramen", "Indomie Ramen", "Knorr Ramen",
+    "Wavy", "Lays", "Kurkure",
+    "Egg Sandwiches", "Fajita Sandwiches", "Vegetable Sandwiches",
+    "Day Dream", "Sooper", "Zeera plus",
+    "Dairy Milk", "Bounty", "Kitkat",
+    "Classic Pancake", "Nutella Pancake", "Oreo Pancake",
+    "Nutella Brownie", "Double Chocolate Brownie", "Fudge Brownie"
 };
 
 int main()
@@ -391,7 +406,7 @@ int main()
                 printf("Invalid Input\n");
                 break;
         }
-        
+       
         printf("Ask customer if he want any other item :\n");
         printf("If yes select (Y) , if no select (N): ");
         scanf(" %c", &choice);
@@ -403,12 +418,16 @@ int main()
     for(i = 0; i < count; i++) {
         printf("Item Name : %s | Item Quantity : %d\n Sub Total : %-6d\n", item_name[i], quantities[i], subtotal[i]);
     }
-       
-    printf("The grand total is Rs %d\n", grand_total);   
+        
+    printf("The grand total is Rs %d\n", grand_total);    
 
     float final = discount(grand_total);
     changeAmount(final);
-    printf("=====THANK YOU FOR SHOPPING AT FAST TUCK SHOP=====\n");   
+    
+    // Call the function to show remaining inventory status at the end
+    showRemainingStock();
+
+    printf("=====THANK YOU FOR SHOPPING AT FAST TUCK SHOP=====\n");    
     return 0;
 }
 
@@ -479,4 +498,13 @@ void changeAmount(float final_bill) {
     scanf("%f", &amount);
     float change = amount - final_bill;
     printf("\nChange = %.2f\n", change);
+}
+
+
+void showRemainingStock() {
+    printf("\n---- Remaining Stock Status ----\n");
+    for (int i = 0; i < 30; i++) {
+        printf("%-30s : %d units remaining\n", all_product_names[i], stock[i]);
+    }
+    printf("--------------------------------\n");
 }
