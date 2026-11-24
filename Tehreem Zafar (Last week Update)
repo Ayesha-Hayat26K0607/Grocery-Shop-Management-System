@@ -1,0 +1,17 @@
+void saveStockStatus() {
+    FILE *fp = fopen("remaining_stock.txt", "w");
+    if (fp == NULL) {
+        printf("Error: Could not open remaining_stock.txt for writing.\n");
+        return;
+    }
+
+    fprintf(fp, "---- Remaining Stock Status ----\n");
+    int i;
+    for (i = 0; i < 30; i++) {
+        fprintf(fp, "%-30s : %d units remaining\n", all_product_names[i], stock[i]);
+    }
+    fprintf(fp, "--------------------------------\n");
+
+    fclose(fp);
+    printf("Remaining stock saved to remaining_stock.txt\n");
+}
